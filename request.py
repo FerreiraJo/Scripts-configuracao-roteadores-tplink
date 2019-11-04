@@ -25,8 +25,8 @@ def init_session(login_url):
 def gerar_dados_login(session_requests, authenticity_token, login_url):
 #gera os daddos de autenticacao
     payload = {
-        "username": "jonathan.ferreira",
-        "password": "41219898",
+        "username": "************",
+        "password": "************",
         "authenticity_token": authenticity_token
     }
     print(payload["authenticity_token"])
