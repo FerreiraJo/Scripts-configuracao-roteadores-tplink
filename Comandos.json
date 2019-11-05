@@ -1,0 +1,9 @@
+{"ssid": [{"CASO_0": "wlctl set 2g --ssid SSID_PADRAO"},
+          {"CASO_1": "wlctl set 2g --ssid Teste_1"},
+          {"CASO_2": "wlctl set 2g --ssid T$s%T#*_2"},
+          {"CASO_3": "wlctl set 2g --ssid Teste_3"},
+          {"CASO_1": "wlctl set 2g --ssid Teste_3"}],
+  "wep": [{"CASO_0": "wlctl set 2g --sec wep open 123456789A 1"},
+          {"CASO_1": "wlctl set 2g --sec wep open 123456789A 1"},
+          {"CASO_2": "wlctl set 2g --sec wep shared 123456789A 1"}]
+}
