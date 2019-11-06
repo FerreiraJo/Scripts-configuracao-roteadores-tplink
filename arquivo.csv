@@ -1,4 +1,9 @@
 #,Project,Tracker,Status,Subject,Assignee,Updated,Priority,Target version,Estimated time,Classificação QA
+22173,GPOS400,Support,New,[libPrinter - GPOS400 v2] - Erro no status da impressora,Bruno Eiterer,30/10/2019 16:56,B3 - Default,"","",Outros
+22171,GPOS400,Support,Feedback,[libPrinter - GPOS400 v2] - Problemas no retorno de quantidade impressa,Isabela Alonso,05/11/2019 20:17,B3 - Default,"","",Outros
+22169,GPOS400,Support,Feedback,[libPrinter - GPOS400 v2] - Documento da libPrinter com erro,Isabela Alonso,05/11/2019 20:18,B3 - Default,"","",Outros
+22138,MP25,Support,New,[MP25] Indicadores de habilitado/desabilitado nas opções de AutoStart e Keypad Sound do System Menu,Lucas Domingos,31/10/2019 18:08,C - Low,"","","Compatibilidade, Requisitos"
+22137,MP25,Support,New,[MP25] Ajuste no botão POWER para desligamento do dispositivo,Lucas Domingos,29/10/2019 12:07,B3 - Default,"","","Compatibilidade, KBD"
 22127,MP25,Support,New,[MP25] Teste de EMV L2 contactless - Mastercard - erro em testes que utilizam RRP,Rafael Silva,25/10/2019 12:41,B3 - Default,"","",PICC (Contactless)
 22123,MP25,Support,New,[MP25] Teste de EMV L2 contactless - Mastercard - erro nos testes do conjunto 3G27-1100 e 3G27-1200,Rafael Silva,24/10/2019 20:21,B3 - Default,"","",PICC (Contactless)
 22121,MP25,Support,New,[MP25] Teste de EMV L2 contactless - Mastercard - erro em testes que utilizam o auto-start entre transações,Rafael Silva,24/10/2019 19:03,B3 - Default,"","",PICC (Contactless)
@@ -15,20 +20,18 @@
 22091,MP25,Support,New,[MP25] Teste de EMV L2 contactless - Mastercard - erro em testes onde ocorre timeout,Rafael Silva,21/10/2019 18:00,B3 - Default,"","",PICC (Contactless)
 22090,MP25,Support,New,[MP25] Teste de EMV L2 contactless - Mastercard - erro em testes com envio de sinal de STOP,Rafael Silva,21/10/2019 17:53,B3 - Default,"","",PICC (Contactless)
 21994,MP25,Support,Ongoing,"[MP25] Teste de EMV L2 contato - Erro após comandos VERIFY e EXTERNAL_AUTHENTICATE com resposta ""63XX""",Dalton Hioki,21/10/2019 12:43,B3 - Default,"","",ICC (Contato)
-21786,MP35,Support,New,[MP35] Equipamento não está reiniciando após um System Halt,Antonio Giovanini,09/10/2019 17:43,B3 - Default,"","","Outros, Requisitos"
-21772,REP-G3,Support,Feedback,[IHM] Aumentar limite mínimo do backlight,Keren Dantas,11/10/2019 17:50,B3 - Default,REP-G3 - 1.1.30.8 (MB 001.030.000 MRP 001.008.000),"",Requisitos
+21786,MP35,Support,New,[MP35] Equipamento não está reiniciando após um System Halt,Vitor Martins,31/10/2019 12:42,B3 - Default,"","","Outros, Requisitos"
+21772,REP-G3,Support,Feedback,[IHM] Aumentar limite mínimo do backlight,Keren Dantas,28/10/2019 16:15,B3 - Default,REP-G3 - 1.1.31.8 (MB 001.031.000 MRP 001.008.000),"",Requisitos
 21745,HSM FW,Support,Feedback,[BUG] Translate entre AES e TDES CBC,Rafael Lopes,17/10/2019 20:30,B3 - Default,"","",Outros
 21701,MOBI PIN 20,Support,New,MP20 Cabal - Função GEDI_POWER_ModeSet() não está acordando depois de um tempo no modo StandBy,Augusto  Kranz,03/10/2019 17:38,B3 - Default,"","",Outros
 21597,MP35,Support,Feedback,[MP35] Retorno incorreto da função GEDI_POWER_BatteryStatus,Robson Rojas - INDT,17/10/2019 18:44,B3 - Default,"","",Bateria
 21455,MP35,Support,New,[MP35] - Lentidão na gravação de chaves,Kauê Massucci,22/10/2019 13:39,B1 - Critical,"","","Outros, Requisitos"
 21317,MOBI PIN 20,Support,Feedback,[MP20A] Aplicação ANATEL,Maxwell Cunha,18/10/2019 11:45,B2 - High,Homologação ANATEL,"","Bluetooth, Compatibilidade"
-21110,MOBI PIN 20,Support,Feedback,CheckGedi - Teste Bateria Moeda Não Funciona,Alípio Silva,03/10/2019 14:47,B2 - High,"","",Bateria
-20711,MOBI PIN 20,Support,New,[MP20A] Reset da senha de acesso ao SystemMenu e ProgramManager,Antonio Giovanini,01/10/2019 18:38,B3 - Default,"","",Outros
+20711,MOBI PIN 20,Support,New,[MP20A] Reset da senha de acesso ao SystemMenu e ProgramManager,Carlos Aurélio,31/10/2019 12:58,B3 - Default,"","",Outros
 20481,Suporte GEDI,Support,Feedback,[MP20A/MP21A] GEDI_BT_ConfigSet não desabilita o modo SSP do Bluetooth,Leonardo Chen,01/10/2019 19:24,B3 - Default,"","",Outros
 20480,Suporte GEDI,Support,Feedback,[MP20A/MP21A] Sigsegv ao realizar repetidas requisições pareamento ,Leonardo Chen,01/10/2019 19:24,B3 - Default,"","",Outros
 18984,MOBI PIN 20,Support,Feedback,Scan da rede está mostrando aleatório,Augusto  Kranz,18/10/2019 10:51,B3 - Default,"","",Wi-Fi
 18980,MOBI PIN 20,Support,New,MP20A - Senha com 63 caracteres ASCII não autentica,Augusto  Kranz,18/10/2019 10:51,B3 - Default,"","",Wi-Fi
-18859,MP20,Support,New,MP20A -  Transação com Cartão dual (contacless e magnético) usando a interface magnético (digitando o valor primeiro),Augusto  Kranz,23/09/2019 13:21,B2 - High,"","","Atendimento a requisitos, MSR, PICC (Contactless)"
 18840,MP21,Support,New,"MP21A - Não permite fazer o envio de comprovante (SMS, e-mail etc)",Augusto  Kranz,01/10/2019 18:31,B3 - Default,"","",App Terceiro
 18839,MP20,Support,New,MP20A - Sinalizador com Transação Contacless - Leds errados,Augusto  Kranz,24/09/2019 14:23,B3 - Default,"","","App Terceiro, PICC (Contactless), PPComp, Requisitos"
 18834,MP20,Support,Feedback,MP20 - Transação com Cartão dual (contacless e smartcard) usando a interface smartcard (digitando o valor primeiro),Augusto  Kranz,17/10/2019 14:12,B3 - Default,"","","Hardware, ICC (Contato), PICC (Contactless)"
@@ -47,12 +50,10 @@
 18752,MP20,Support,New,MP20A - Senha com 63 caracteres ASCII não autentica,Augusto  Kranz,18/10/2019 10:57,B3 - Default,"","",Wi-Fi
 18710,MP20,Support,New,"MP20 - Timeout na tela de ""Enter Password""",Augusto  Kranz,30/09/2019 12:02,C - Low,"","",Outros
 18708,MP20,Support,New,MP20A - Indice da rede vai de 0 até 9 e depois se há mais rede fica sem índice,Augusto  Kranz,18/10/2019 10:57,B3 - Default,"","",Wi-Fi
-18707,MP20,Support,New,MP20A - Scan da rede está mostrando aleatório,Augusto  Kranz,18/10/2019 10:57,B3 - Default,"","",Wi-Fi
+18707,MP20,Support,Feedback,MP20A - Scan da rede está mostrando aleatório,Jonathan Ferreira,02/11/2019 20:27,B3 - Default,"","",Wi-Fi
 18706,MP20,Support,New,MP20A - Atalhos de teclados faltando caracteres,Augusto  Kranz,18/10/2019 13:01,C - Low,"","","App Terceiro, KBD"
 18701,MP20,Support,Feedback,MP20A - Problema na Tela após gravação de chaves,Augusto  Kranz,18/10/2019 11:00,B2 - High,"","",Outros
 18697,MP20,Support,Feedback,"MP20A - Carregamento está ""se perdendo"" ao manter o carregador conectado na energia",Lucas Moraes,18/10/2019 11:02,B2 - High,"","","Bateria, Outros"
-18693,MP20,Support,New,MP20A - Versões homologadas estão erradas,Augusto  Kranz,18/10/2019 11:03,B3 - Default,"","",Controle de Versão
-18686,MP20,Support,New,MP20A - Logo da inicialização está diferente do MP20,Augusto  Kranz,18/10/2019 11:48,B3 - Default,"","","App Terceiro, Escopo"
 18681,MOBI PIN 20,Support,Feedback,[MP20A] - Calibração Wi-Fi com RootFS V0013,Augusto  Kranz,17/10/2019 11:34,B3 - Default,Next,"",Wi-Fi
 18594,MP20,Support,New,MP20 - Scan da rede está mostrando aleatório,Augusto  Kranz,30/09/2019 11:51,C - Low,"","","App Terceiro, Wi-Fi"
 18591,MP20,Support,New,MP20 - Sinalizador do nome da rede errado,Augusto  Kranz,30/09/2019 11:59,B3 - Default,"","",App Terceiro
@@ -78,5 +79,5 @@
 12656,MP20,Support,New,Erro 18 na função PP_CheckEvent() quando o bit do evento contactless é ativado,Alef Oliveira,18/10/2019 11:25,B3 - Default,PPComp 1.21,"",PPComp
 12015,MP20,Support,Feedback,Testes da PPComp 1.20_180406 ,Augusto  Kranz,18/10/2019 11:26,B3 - Default,"",16.00,PPComp
 11209,MP20,Support,Testing,PPComp - SwExpress - Analise de falha com cartão Mastercard contactless débito,Lucas Moraes,18/10/2019 11:26,B3 - Default,"","",PPComp
-5293,MOBI PIN 20,Support,Feedback,Medição de consumo do módulo GSM em Stand-by,Alípio Silva,01/10/2019 19:11,B3 - Default,"",4.00,"GSM, Outros"
+5293,MOBI PIN 20,Support,Feedback,Medição de consumo do módulo GSM em Stand-by,Lucas Moraes,31/10/2019 19:34,B3 - Default,"",4.00,"GSM, Outros"
 3134,MOBI PIN 20,Support,Feedback,MP20 desliga aos 50ºC,Kleber Paranhos,18/10/2019 11:27,B1 - Critical,"","",Hardware
